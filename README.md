@@ -49,14 +49,14 @@ Just note that the project can not be included as a _static library_ since Inter
 
 ### Basics
 
-Once Polyglot is set up, open your Storyboard of XIB file. Select a UI element that displays some text (a UILabel for example), you will see a propery named "Text Key" in the propery inspector. Set the following value to the "Text Key" propery: _hello_wolrd_.
+Once Polyglot is set up, open your Storyboard of XIB file. Select a UI element that displays some text (a UILabel for example), you will see a property named "Text Key" in the property inspector. Set the following value to the "Text Key" property: _hello_world_.
 
 Now you will have to add the corresponding value to the _Localizable.strings_ file:
 ```
-"hello_wolrd" = "Hello Wold";
+"hello_world" = "Hello World";
 ```
 
-You can now run the app and the label should display Hello World.
+You can now run the app and the label should display _Hello World_.
 
 ### Property naming
 
